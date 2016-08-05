@@ -39,7 +39,7 @@ $ make
 
 We can see that the `.png` files appeared in the `example_diagrams` folder.
 ```
-$ ls -l
+$ ls example_diagrams
 example-diagram.activity.yuml.png  example-diagram.class.yuml.png  example-diagram.usecase.yuml.png
 example-diagram.activity.yuml.txt  example-diagram.class.yuml.txt  example-diagram.usecase.yuml.txt
 ```
