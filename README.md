@@ -71,7 +71,7 @@ And finally, each part described above MUST be separated by a dot. You can refer
 The outputed diagrams will follow the same pattern as the inputed one, except that the final extension will be replaced. e.g. `.txt` will become `.png`.
 
 ### Customize the Makefile for your needs
-[Here](/Makefile#L18) are the three diagrams types available. You can replace the example diagrams by your owns. Example:
+[Here](/Makefile#L20) are the three diagrams types available. You can replace the example diagrams by your owns. Example:
 ```
 CLASS_SRCS = my_first_diagram.class.yuml.txt \
              my_second_diagram.class.yuml.txt \
@@ -79,9 +79,9 @@ CLASS_SRCS = my_first_diagram.class.yuml.txt \
 ```
 Note the trailing `\` character at the end of each line except the last one.
 
-[Here](/Makefile#L46) choose the `yuml` flags you will use in your Makefile. You can find a quick description of the avaiable flags directly in the Makefile. For a more detailed description and other available flags, see https://github.com/wandernauta/yuml#options
+[Here](/Makefile#L29) choose the `yuml` flags you will use in your Makefile. You can find a quick description of the avaiable flags directly in the Makefile. For a more detailed description and other available flags, see https://github.com/wandernauta/yuml#options
 
-And finally, [here](/Makefile#L109) choose the diagrams output types that will be generated during the process. Instructions in the Makefile.
+And finally, [here](/Makefile#L45) choose the diagrams output types that will be generated during the process. Instructions in the Makefile.
 
 ## Contributing
 Don't hesitate to contribute, every contribution is welcome! Just open an issue and we will discuss it.
